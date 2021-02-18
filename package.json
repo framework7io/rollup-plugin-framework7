@@ -1,0 +1,37 @@
+{
+  "name": "rollup-plugin-framework7",
+  "version": "1.0.0",
+  "description": "Framework7 single-file component loader for Rollup and Vite",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/framework7io/rollup-plugin-framework7.git"
+  },
+  "author": "Vladimir Kharlampidi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/framework7io/rollup-plugin-framework7/issues"
+  },
+  "homepage": "https://github.com/framework7io/rollup-plugin-framework7#readme",
+  "dependencies": {
+    "@babel/core": "^7.12.16",
+    "@rollup/pluginutils": "^4.1.0",
+    "require-relative": "^0.8.7"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.16",
+    "@babel/preset-react": "^7.12.13",
+    "@rollup/plugin-babel": "^5.3.0",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "rollup": "^2.39.0",
+    "rollup-plugin-css-only": "^3.1.0"
+  }
+}
