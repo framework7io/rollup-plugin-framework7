@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-framework7",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Framework7 single-file component loader for Rollup and Vite",
   "main": "lib/index.js",
   "scripts": {
