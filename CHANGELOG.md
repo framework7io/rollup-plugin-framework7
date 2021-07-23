@@ -1,5 +1,9 @@
 # Changelog
 
+# [1.1.0](https://github.com/framework7io/rollup-plugin-framework7/compare/v1.0.1...v1.1.0) (2021-07-23)
+
+- add support for `.f7` files
+
 # [1.0.1](https://github.com/framework7io/rollup-plugin-framework7/compare/v1.0.0...v1.0.1) (2021-03-02)
 
 ### Bug Fixes

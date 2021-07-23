@@ -7,7 +7,7 @@
 `rollup-plugin-framework7` is a plugin for [Rollup](https://rollupjs.org/guide/en/) and [Vite](https://vitejs.dev) that allows you to author [Framework7 Router components](http://framework7.io/docs/router-component.html) in a format called [Single-File Components](http://framework7.io/docs/router-component.html#single-file-component):
 
 ```html
-<!-- my-page.f7.html -->
+<!-- my-page.f7.html (or my-page.f7) -->
 <template>
   <div class="page">${msg}</div>
 </template>
@@ -93,7 +93,7 @@ export default {
 Framework7 v6 single file components also support JSX:
 
 ```html
-<!-- my-page.f7.html -->
+<!-- my-page.f7.html (or my-page.f7) -->
 <script>
   export default () => {
     const msg = 'Hello world';
