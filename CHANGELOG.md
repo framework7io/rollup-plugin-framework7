@@ -1,5 +1,9 @@
 # Changelog
 
+# [1.2.1](https://github.com/framework7io/rollup-plugin-framework7/compare/v1.2.0...v1.2.1) (2021-11-04)
+
+- add support for `.f7.ts` and `.f7.tsx` components
+
 # [1.2.0](https://github.com/framework7io/rollup-plugin-framework7/compare/v1.1.0...v1.2.0) (2021-08-24)
 
 - correctly parse `export default async` in components
