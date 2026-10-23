@@ -1,5 +1,9 @@
 # Changelog
 
+# [1.3.0](https://github.com/framework7io/rollup-plugin-framework7/compare/v1.2.1...v1.3.0) (2026-10-23)
+
+- support Vite 8 (Rolldown / Oxc): JSX components compile to `$jsx` without `esbuild`/`oxc` JSX config
+
 # [1.2.1](https://github.com/framework7io/rollup-plugin-framework7/compare/v1.2.0...v1.2.1) (2021-11-04)
 
 - add support for `.f7.ts` and `.f7.tsx` components
