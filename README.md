@@ -81,12 +81,11 @@ In Vite config (`vite.config.js`):
 import framework7 from 'rollup-plugin-framework7';
 
 export default {
-  esbuild: {
-    jsxFactory: '$jsx',
-  },
   plugins: [framework7({ emitCss: false })],
 };
 ```
+
+JSX in `.f7.jsx` components is compiled to Framework7's `$jsx` automatically, no `esbuild` or `oxc` JSX config is required (works with both Vite 8+ and older versions).
 
 ## JSX
 
